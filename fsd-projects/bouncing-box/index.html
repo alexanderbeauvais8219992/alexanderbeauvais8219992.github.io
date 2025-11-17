@@ -84,6 +84,14 @@ positionX = positionX+10
        moveBoxTo(200); // Moves box to x-position 200 
 moveBoxTo(positionX)
          positionX = positionX + speed; 
+        if(positionX > boardWidth){
+
+                speed = speed * -1
+
+        }
+
+        
+        
         }
 
         /**
